@@ -1,0 +1,86 @@
+:root {
+    --main-bg-color: lightseagreen;
+}
+
+body {
+  font-family: 'Source Sans Pro', 'Trebuchet MS', 'Lucida Grande', 'Bitstream Vera Sans', 'Helvetica Neue', sans-serif;
+  margin: 0;
+  text-align: center;
+  color: #293c4b;
+}
+
+h1 {
+  font-size: 30px;
+}
+
+h3 {
+    margin: 0;
+}
+
+h4 {
+    margin: 0 0 10px 0;
+    color: var(--main-bg-color);
+}
+
+p {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+img {
+  margin: 20px 0;
+  max-width: 200px;
+}
+
+.header {
+    background-color: var(--main-bg-color);
+    margin: 20px auto 0 auto;
+    width: 120px;
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.header * {
+    text-align: center;
+    margin: 10px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.content {
+    width: 100%;
+    display: flex;
+}
+
+.content * .title {
+    display: inline-block;
+    padding: 5px 10px;
+    margin: 10px 0;
+    background-color: var(--main-bg-color);
+}
+
+.content .left {
+    flex: 50%;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    text-align: right;
+    border-right: 2px solid var(--main-bg-color);
+}
+
+.content .right {
+    flex: 50%;
+    padding-top: 35px;
+    padding-bottom: 10px;
+    text-align: left;
+    border-left: 1px solid var(--main-bg-color);
+}
+
